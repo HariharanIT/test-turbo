@@ -1,0 +1,13 @@
+{
+  "name": "@harigit/ui-card",
+  "description": "UI Card component",
+  "version": "0.1.1",
+  "private": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup-node --tsconfig=tsconfig.json --config=tsup.config.build.ts",
+    "dev": "tsup-node --tsconfig=tsconfig.json --config=tsup.config.dev.ts"
+  }
+}
